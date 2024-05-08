@@ -1,12 +1,14 @@
 const express = require ('express')
 const {MongoClient} = require('mongodb')
 const uri = 'mongodb://127.0.0.1:27017/'
+const cors = require('cors')
 
 const PORT = process.env.PORT || 8000
 
 const app = express()
 
 app.use(express.json({extended: false}))
+app.use(cors())
 
 // const client = new MongoClient(uri)
 // const dbname = 'mern-blog'
