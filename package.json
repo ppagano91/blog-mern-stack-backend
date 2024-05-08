@@ -10,7 +10,8 @@
   "author": "Patricio Pagano",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongodb": "^6.6.1"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
